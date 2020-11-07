@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10px;
+   background: #5f6d71;
+}
+.container{
+  background:  #214360bc ;
+  min-width: 350px;
+  max-width: 700px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.title{
+  text-align: center;
+  color: rgb(84,169,228);
+  margin: 10px;
+}
+.sym{
+  color: rgb(31,199,235);
+}
+.app{
+  color: rgb(78,203,231);
+}
+.time{
+  text-align: center;
+  color: #fff;
+  margin: 15px;
+  font: 18px bold;
+}
+.input{
+  padding: 10px;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background: none;
+  color:#fff;
+  text-align: center;
+}
+::placeholder{
+  opacity: 0.3;
+  color: #fff;
+  font-size: 16px;
+}
+.add{
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  outline: none;
+  color: #fff;
+  background: #2361b6;
+  margin-left: 12px;
+}
+.items{
+  margin: 20px 10px;
+  width: 100%;
+  border-top: 2px dotted #fff;
+}
+.item{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 10px;
+  font: 18px bold;
+  outline: none;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding: 5px;
+}
+.checked{
+  text-decoration: line-through;
+  color: #bfc9cc90;
+}
+.edit{
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px;
+  background: #16cad0;
+  outline: none;
+}
+.save{
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px;
+  background: #1a56c29a;
+  outline: none;
+}
+.remove{
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  background: #da23477f;
+  outline: none;
+}
+.editor{
+  background: none;
+  border: none;
+  max-width: 160px;
+  outline: none;
+  text-align: center;
+  color: #4fcdec;
+  font: 18px bold;
+  box-sizing: border-box;
+}
+.statistics{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.completed{
+  color: #38b5d9;
+  margin-left: 5px;
+  
+}
+.taskDue{
+  color: #38b5d9;
+  margin-right: 8px;
+}
+#completed, #taskDue{
+  padding: 5px;
+  background: rgb(12,239,243);
+  color: #000;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  margin: 10px;
+}
