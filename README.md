@@ -1,7 +1,3 @@
-### Hi there 👋
+A todo list app created using html,
+css and javascript.
 
-<!--
-## i am tesn and i am new to github
-** i was working on a todo list app which i would like ti improve
-## i am currently learning react
--->
